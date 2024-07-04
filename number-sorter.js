@@ -51,3 +51,5 @@ const selectionSort = (array) => {
 };
 
 const insertionSort = (array) => {};
+
+sortButton.addEventListener("click", sortInputArray);
