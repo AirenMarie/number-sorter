@@ -33,4 +33,10 @@ const bubbleSort = (array) => {
   return array;
 };
 
-const selectionSort = (array) => {};
+const selectionSort = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    let minIndex = i;
+
+    for (let j = i + 1; j < array.length; j++) {}
+  }
+};
