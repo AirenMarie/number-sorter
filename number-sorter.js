@@ -47,4 +47,6 @@ const selectionSort = (array) => {
     array[i] = array[minIndex];
     array[minIndex] = temp;
   }
+
+  return array;
 };
